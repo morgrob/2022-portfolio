@@ -26,11 +26,35 @@
 	import appTeamLogo from '$lib/images/fall-2022-pfp-2.png';
 	import uncCS from '$lib/images/unc-cs.jpg';
 
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "firebase/app";
+	import { getAnalytics } from "firebase/analytics";
+	// TODO: Add SDKs for Firebase products that you want to use
+	// https://firebase.google.com/docs/web/setup#available-libraries
+
+	// Your web app's Firebase configuration
+	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	const firebaseConfig = {
+	apiKey: "AIzaSyBY8ULQPuQL6nahRhP7-FDWH65yEfH2iGI",
+	authDomain: "portfolio-381b3.firebaseapp.com",
+	projectId: "portfolio-381b3",
+	storageBucket: "portfolio-381b3.appspot.com",
+	messagingSenderId: "261180888397",
+	appId: "1:261180888397:web:79376d9c8451f7cabed304",
+	measurementId: "G-1C3PBJ6T9H"
+	};
+
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
 
 	let topAppBar: TopAppBarComponentDev;
 
-	let lightTheme =
-		typeof window === 'undefined' || window.matchMedia('(prefers-color-scheme: light)').matches;
+	let lightTheme = typeof window === 'undefined' || window.matchMedia('(prefers-color-scheme: light)').matches;;
+
+	// onMount(async () => {
+	// 	lightTheme = typeof window === 'undefined' || window.matchMedia('(prefers-color-scheme: light)').matches;
+	// })
+		
 	function switchTheme() {
 		lightTheme = !lightTheme;
 		let themeLink = document.head.querySelector<HTMLLinkElement>('#theme');
@@ -640,7 +664,6 @@
 		margin-top: auto;
 		margin-bottom: auto;
 	}
-	
 	#base {
 		stroke-dasharray: 1000;
 		stroke-dashoffset: 0;
