@@ -1,0 +1,175 @@
+{
+  "src/lib/images/logo-white.svg": {
+    "file": "_app/immutable/assets/logo-white-645cc92e.svg",
+    "src": "src/lib/images/logo-white.svg"
+  },
+  "src/lib/images/logo-black.svg": {
+    "file": "_app/immutable/assets/logo-black-f143b2eb.svg",
+    "src": "src/lib/images/logo-black.svg"
+  },
+  "src/lib/images/appteam-cover.png": {
+    "file": "_app/immutable/assets/appteam-cover-e1cad3f8.png",
+    "src": "src/lib/images/appteam-cover.png"
+  },
+  "src/lib/images/bubbly-cover.png": {
+    "file": "_app/immutable/assets/bubbly-cover-7090a188.png",
+    "src": "src/lib/images/bubbly-cover.png"
+  },
+  "src/lib/images/centible-cover.png": {
+    "file": "_app/immutable/assets/centible-cover-d2ebead0.png",
+    "src": "src/lib/images/centible-cover.png"
+  },
+  "src/lib/images/chromatic-cover.png": {
+    "file": "_app/immutable/assets/chromatic-cover-5e5dafdb.png",
+    "src": "src/lib/images/chromatic-cover.png"
+  },
+  "src/lib/images/convictions-cover.png": {
+    "file": "_app/immutable/assets/convictions-cover-f7590f9a.png",
+    "src": "src/lib/images/convictions-cover.png"
+  },
+  "src/lib/images/morgan.jpeg": {
+    "file": "_app/immutable/assets/morgan-1869bd75.jpeg",
+    "src": "src/lib/images/morgan.jpeg"
+  },
+  "src/lib/images/tetris-cover.png": {
+    "file": "_app/immutable/assets/tetris-cover-2d2afb7d.png",
+    "src": "src/lib/images/tetris-cover.png"
+  },
+  "src/lib/images/intel-logo.png": {
+    "file": "_app/immutable/assets/intel-logo-398d30ca.png",
+    "src": "src/lib/images/intel-logo.png"
+  },
+  "src/lib/images/weather-cover.png": {
+    "file": "_app/immutable/assets/weather-cover-b0b2906a.png",
+    "src": "src/lib/images/weather-cover.png"
+  },
+  "src/lib/images/sharpspring.png": {
+    "file": "_app/immutable/assets/sharpspring-0224309f.png",
+    "src": "src/lib/images/sharpspring.png"
+  },
+  "src/lib/images/fall-2022-pfp-2.png": {
+    "file": "_app/immutable/assets/fall-2022-pfp-2-bb5e9d49.png",
+    "src": "src/lib/images/fall-2022-pfp-2.png"
+  },
+  "src/lib/images/unc-cs.jpg": {
+    "file": "_app/immutable/assets/unc-cs-699bf0ee.jpg",
+    "src": "src/lib/images/unc-cs.jpg"
+  },
+  "src/lib/images/pfp-csxl.png": {
+    "file": "_app/immutable/assets/pfp-csxl-8434ba0c.png",
+    "src": "src/lib/images/pfp-csxl.png"
+  },
+  "src/lib/images/intel-cover.png": {
+    "file": "_app/immutable/assets/intel-cover-5f0493d3.png",
+    "src": "src/lib/images/intel-cover.png"
+  },
+  "src/lib/images/insomnia-cover.png": {
+    "file": "_app/immutable/assets/insomnia-cover-667ac177.png",
+    "src": "src/lib/images/insomnia-cover.png"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-453517e1.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-7fa8cb2a.js",
+      "_singletons-30b091e6.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-b740a3e9.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-7fa8cb2a.js",
+      "_index-003be457.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-40e3f988.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/morgan-1869bd75.jpeg",
+      "_app/immutable/assets/logo-white-645cc92e.svg",
+      "_app/immutable/assets/logo-black-f143b2eb.svg",
+      "_app/immutable/assets/appteam-cover-e1cad3f8.png",
+      "_app/immutable/assets/bubbly-cover-7090a188.png",
+      "_app/immutable/assets/centible-cover-d2ebead0.png",
+      "_app/immutable/assets/chromatic-cover-5e5dafdb.png",
+      "_app/immutable/assets/convictions-cover-f7590f9a.png",
+      "_app/immutable/assets/insomnia-cover-667ac177.png",
+      "_app/immutable/assets/intel-cover-5f0493d3.png",
+      "_app/immutable/assets/tetris-cover-2d2afb7d.png",
+      "_app/immutable/assets/weather-cover-b0b2906a.png",
+      "_app/immutable/assets/intel-logo-398d30ca.png",
+      "_app/immutable/assets/sharpspring-0224309f.png",
+      "_app/immutable/assets/pfp-csxl-8434ba0c.png",
+      "_app/immutable/assets/fall-2022-pfp-2-bb5e9d49.png",
+      "_app/immutable/assets/unc-cs-699bf0ee.jpg"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-06eb8e50.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-7fa8cb2a.js",
+      "_singletons-30b091e6.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-b8e40712.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-7fa8cb2a.js"
+    ]
+  },
+  "_singletons-30b091e6.js": {
+    "file": "_app/immutable/chunks/singletons-30b091e6.js",
+    "imports": [
+      "_index-003be457.js"
+    ]
+  },
+  "_index-7fa8cb2a.js": {
+    "file": "_app/immutable/chunks/index-7fa8cb2a.js"
+  },
+  "_index-003be457.js": {
+    "file": "_app/immutable/chunks/index-003be457.js",
+    "imports": [
+      "_index-7fa8cb2a.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-cc85fb00.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+layout.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-4159e21d.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-3a23523c.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-40e3f988.css",
+    "src": "src/routes/+layout.css"
+  }
+}

@@ -83,6 +83,8 @@
 	// 	},
 	// ];
 	let active = 'Experience';
+
+	export const prerender = true
 </script>
 
 <TopAppBar bind:this={topAppBar} variant="dense" style="background-color: {lightTheme ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.8)'}; backdrop-filter: blur(10px);">
@@ -611,7 +613,8 @@
 		transition: 0.2s ease-in-out;
 	}
 	.card-container:hover {
-		transform: scale(1.02);
+		/* transform: scale(1.02); */
+		cursor: default;
 	}
 	.section-header p {
 		font-family: 'Inter', sans-serif;
